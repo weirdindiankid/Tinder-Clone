@@ -38,6 +38,7 @@ class ViewController: UIViewController, FBLoginViewDelegate,PFLogInViewControlle
         GlobalVariableSharedInstance.initLocationManager()
     }
 
+    // Add in an NSRunLoop to make this faster
     override func viewWillAppear(animated: Bool)
     {
         println("viewWillAppear");
